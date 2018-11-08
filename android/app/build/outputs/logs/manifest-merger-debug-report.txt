@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cc3c53d12f0848053c5f8b167176fac8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1d7747ceaeba20c3eb639de340b9d9a2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6d6c6a2990208f39bfe8078fdc7032cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d2f57d017982f330dc892e4f245f8ca4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a93022af51788abe52cca97b791698f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\da05b6fabfa11c7e9e47c37735463e2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fc5a521591a3849b72d5869bba53ea8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\d5cfd9150d612234dc3f5eb3d53fdf68\AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\0eb9c33a7b940dc6743c51c332c6a719\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\f83c040f547ab9d3aa35e3d58739f05e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\4146a3f1dfda80e2ca5bf37973d04548\AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\7db52d16c0258cc969d0c993d1d91cee\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\68eda9f8b8e118d945e129000af18069\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\9a2ac3fa64322cbcb9042dfe0a113d12\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\959342063c6cc1698540e224ad998dc0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\0c3c18950aa4dc32f5706b5ae6b3a535\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8847e7ebc8e0fc094580367ac690b41d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\bd0b09415f02dcaad8d6e6ab7a8c1b2d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\264ee3cd6239be1f2a25f748b6765546\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\59883f0a4f38b834e6b6135d3a557aa6\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\4146a3f1dfda80e2ca5bf37973d04548\AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\4146a3f1dfda80e2ca5bf37973d04548\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\7db52d16c0258cc969d0c993d1d91cee\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\7db52d16c0258cc969d0c993d1d91cee\AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.meu_segundo_projeto.MainActivity
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\0d3dc88db6ff4c83060a6e03e8738338\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cc3c53d12f0848053c5f8b167176fac8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cc3c53d12f0848053c5f8b167176fac8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1d7747ceaeba20c3eb639de340b9d9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1d7747ceaeba20c3eb639de340b9d9a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6d6c6a2990208f39bfe8078fdc7032cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6d6c6a2990208f39bfe8078fdc7032cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d2f57d017982f330dc892e4f245f8ca4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d2f57d017982f330dc892e4f245f8ca4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a93022af51788abe52cca97b791698f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a93022af51788abe52cca97b791698f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\da05b6fabfa11c7e9e47c37735463e2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\da05b6fabfa11c7e9e47c37735463e2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fc5a521591a3849b72d5869bba53ea8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\0fc5a521591a3849b72d5869bba53ea8\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\d5cfd9150d612234dc3f5eb3d53fdf68\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\textlayoutbuilder-1.0.0.aar\d5cfd9150d612234dc3f5eb3d53fdf68\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\0eb9c33a7b940dc6743c51c332c6a719\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fresco-1.3.0.aar\0eb9c33a7b940dc6743c51c332c6a719\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\f83c040f547ab9d3aa35e3d58739f05e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.3.0.aar\f83c040f547ab9d3aa35e3d58739f05e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\4146a3f1dfda80e2ca5bf37973d04548\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\soloader-0.1.0.aar\4146a3f1dfda80e2ca5bf37973d04548\AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\68eda9f8b8e118d945e129000af18069\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\drawee-1.3.0.aar\68eda9f8b8e118d945e129000af18069\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\9a2ac3fa64322cbcb9042dfe0a113d12\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.3.0.aar\9a2ac3fa64322cbcb9042dfe0a113d12\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\959342063c6cc1698540e224ad998dc0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.3.0.aar\959342063c6cc1698540e224ad998dc0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\0c3c18950aa4dc32f5706b5ae6b3a535\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\fbcore-1.3.0.aar\0c3c18950aa4dc32f5706b5ae6b3a535\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8847e7ebc8e0fc094580367ac690b41d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\8847e7ebc8e0fc094580367ac690b41d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\bd0b09415f02dcaad8d6e6ab7a8c1b2d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\bd0b09415f02dcaad8d6e6ab7a8c1b2d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\264ee3cd6239be1f2a25f748b6765546\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\264ee3cd6239be1f2a25f748b6765546\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\59883f0a4f38b834e6b6135d3a557aa6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Levon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\59883f0a4f38b834e6b6135d3a557aa6\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Levon\Desktop\Maua\React Native\Projeto-react\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
