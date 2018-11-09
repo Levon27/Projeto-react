@@ -11,10 +11,12 @@ export default class Login extends Component {
   logar(){
 	user = this.state.username
 	pass = this.state.password
-	user_login = 'jade kush'
-	pass_login = 'escalade5'
-	if (user == user_login && pass = pass_login)
+	user_login = 'Jade kush'
+	pass_login = 'Escalade5'
+	if ((user == user_login) && (pass == pass_login)){
 		Alert.alert('AVISO!','Login e senha corretos')
+		this.props.navigation.navigate('TelaLista')
+	}
 	else
 		Alert.alert('AVISO!','Dados incorretos!')
   }

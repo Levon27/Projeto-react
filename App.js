@@ -9,23 +9,25 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,TextInput} from 'react-native';
 import Login from './src/components/login';
+import Lista from './src/components/lista';
+import { createStackNavigator } from 'react-navigation';
 
 type Props = {};
+
+const RootStack = createStackNavigator(
+  {
+	TelaLogin: Login,
+	TelaLista: Lista
+  },
+  {
+	initialRouteName:'TelaLogin'  
+  }
+);
+
 export default class App extends Component<Props> {
   render() {
-    return (
-      <View>
-        <Login/>
-      </View>
-    );
+    return <RootStack/>;
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  }
-});
+
