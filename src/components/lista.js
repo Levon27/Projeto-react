@@ -1,17 +1,38 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text,FlatList,Button,Alert} from 'react-native';
+import ItemLista from './item_lista';
 
 export default class Lista extends Component {
   constructor(props) {
     super(props);
-    this.state = {
+    this.state = {dados: [
+      {key:"Jade kush"},
+      {key:"Alina Li"}
+    ],
+    refresh : false
     };
   }
   
-   render() {
+  adicionar(){
+    
+    const { refresh, dados } = this.state;
+    this.setState({
+      dados: [...dados, {key:"Vina sky"}],
+      refresh: !refresh
+    })  }
+
+  render() {
+
     return (
       <View>
-        <Text>Segunda página </Text>
+        <FlatList
+        data= {this.state.dados}
+        extraData = {this.state.refresh}
+        renderItem={({item}) => <ItemLista texto={item.key} data={'13:00:00'}/>}
+        />
+        <Button title="Adicionar"
+		    onPress={this.adicionar.bind(this)}>      
+        </Button>
       </View>
     );
   }

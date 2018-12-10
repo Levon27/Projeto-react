@@ -11,8 +11,8 @@ export default class Login extends Component {
   logar(){
 	user = this.state.username
 	pass = this.state.password
-	user_login = 'Jade kush'
-	pass_login = 'Escalade5'
+	user_login = ''
+	pass_login = ''
 	if ((user == user_login) && (pass == pass_login)){
 		Alert.alert('AVISO!','Login e senha corretos')
 		this.props.navigation.navigate('TelaLista')
@@ -26,14 +26,14 @@ export default class Login extends Component {
       <View>
         <TextInput onChangeText={(username) => this.setState({username})}
         value={this.state.username}
-		onChangeText={(username) => this.setState({username})}
-		style={Styles.estiloInput}/>
+		    onChangeText={(username) => this.setState({username})}
+		    style={Styles.estiloInput}/>
         <TextInput onChangeText={(password) => this.setState({password})}
         value={this.state.password}
-		onChangeText={(password) => this.setState({password})}
-		style={Styles.estiloInput}/>
-		<Button title="Me aperte"
-		onPress={this.logar.bind(this)}> </Button>
+		    onChangeText={(password) => this.setState({password})}
+		    style={Styles.estiloInput}/>
+		    <Button title="Entrar"
+		    onPress={this.logar.bind(this)}> </Button>
       </View>
     );
   }
