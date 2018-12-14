@@ -7,7 +7,7 @@ export default class Lista extends Component {
     super(props);
     this.state = {dados: [
       {key:"Nota 1"},
-      {key:"nota 2"}
+      {key:"Nota 2"}
     ],
     refresh : false,
     modalVisible: false,
@@ -35,28 +35,31 @@ export default class Lista extends Component {
   render() {
     
     return (
-      <View>      
-        <FlatList
-        data= {this.state.dados}
-        extraData = {this.state.refresh}
-        renderItem={({item}) => <ItemLista texto={item.key} data={'13:00:00'}/>}
-        />
-        <Button title="Adicionar"
-		    onPress={this.abrirModal.bind(this)}>      
-        </Button>
+      <View>   
+        <View>   
+          <FlatList
+          data= {this.state.dados}
+          extraData = {this.state.refresh}
+          renderItem={({item}) => <ItemLista texto={item.key}/>}
+          />
+          <Button title="Adicionar"
+          style={styles.estiloBotao}
+          onPress={this.abrirModal.bind(this)}>      
+          </Button>
+        </View>
       <View style={styles.estilocontainer}>
         <Modal
           animationType="slide"
           transparent={false}
           visible={this.state.modalVisible}
           onRequestClose={() => {
-            Alert.alert('Modal has been closed.');
           }}>
             <View style={styles.estiloModal}>    
               <TextInput placeholder="Nova anotação"
+              style={styles.estiloInput}
               onChangeText={(novaNota) => this.setState({novaNota})}/>
               <Button title="Adicionar Novo"
-                onPress={this.adicionarNovo.bind(this)}>
+                onPress={this.adicionarNovo.bind(this)} style={styles.estiloBotao}>
               </Button>
             </View> 
         </Modal>   
@@ -68,10 +71,19 @@ export default class Lista extends Component {
 
 const styles = {
   estiloModal : {
-    fill:1,
+    flex:1,
   },
   estilocontainer:{
     backgroundColor:"powderblue",
     alignItems: 'center'
-  }
+  },estiloBotao:{
+    margin: 3,
+    position:"absolute",
+    bottom: "3%"
+  },
+  estiloInput:{
+    fontSize: 24,
+    backgroundColor:'#ddd',
+    margin:3
+  },
 }

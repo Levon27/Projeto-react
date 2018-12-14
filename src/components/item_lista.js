@@ -28,6 +28,7 @@ const styles = {
 
     estiloTexto :{
         fontSize: 18,
-        textAlign: 'center'
+        textAlign: 'center',
+        margin: 1
     }
 }

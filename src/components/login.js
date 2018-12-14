@@ -7,8 +7,12 @@ import '@firebase/auth';
 export default class Login extends Component {
   constructor(props) {
     super(props);
-    this.state = { username:'', password:'', modalVisible:false, newUser:'',newUserPass:'',retypedPass:''
-
+    this.state = {
+    username:'',  password:'', 
+    modalVisible:false, 
+    newUser:'',
+    newUserPass:'',
+    retypedPass:''
     };
 
     const config = {
@@ -19,9 +23,10 @@ export default class Login extends Component {
       storageBucket: "projeto-react-f5b2c.appspot.com",
       messagingSenderId: "459346341374"
     };
-    //tirar isso daqui dps
+    //criar classe depois com isso
     app.initializeApp(config);
 
+    Alert.alert("Bem-vindo","Projeto criado com React-Native e autenticação feita via Firebase. \n Dica de usuário e senha: teste@teste.br - 123456")
   }
   
   abrirRegistrar(){
@@ -37,58 +42,49 @@ export default class Login extends Component {
     newUserPass = this.state.newUserPass;
     retypedPass = this.state.retypedPass;
    
-    if (newUserPass==retypedPass){
+    if ((newUserPass==retypedPass)){
       app.auth().createUserWithEmailAndPassword(newUser,newUserPass)
-      .then(response=>{Alert.alert("Conta criada com sucesso");})
+      .then(response=>{
+        Alert.alert("Conta criada com sucesso");
+        this.setState({modalVisible: false});})
       .catch(err => console.warn(err.message));
-      this.setState({modalVisible: false});
+      
     }
     else
-      console.warn("Senhda diferentes");
+      console.warn("Senhas diferentes");
   }
 
   logar(){
 	  user = this.state.username;
     pass = this.state.password; 
 
-    app.auth().signInWithEmailAndPassword(user,pass).then(response => {this.props.navigation.navigate('TelaLista')})
+    app.auth().signInWithEmailAndPassword(user,pass)
+    .then(response => {this.props.navigation.navigate('TelaLista')})
     .catch(err => {Alert.alert("Dados incorretos. Digite novamente.")})
 
-    /*
-    Autenticação antiga
-
-    user_login = ''
-    pass_login = ''
-
-    if ((user == user_login) && (pass == pass_login)){
-      //Alert.alert('AVISO!','Login e senha corretos')
-      this.props.navigation.navigate('TelaLista')
-    }
-    else
-      Alert.alert('AVISO!','Dados incorretos!')
-    }
-    */
   }
 
   render() {
     return (
       <View>
         <TextInput onChangeText={(username) => this.setState({username})}
-        value={this.state.username}
+        deafultValue={this.state.defaulEmail}
         placeholder="Login"
 		    onChangeText={(username) => this.setState({username})}
 		    style={styles.estiloInput}/>
         <TextInput onChangeText={(password) => this.setState({password})}
-        value={this.state.password}
         placeholder="Senha"
         secureTextEntry={true}
 		    onChangeText={(password) => this.setState({password})}
 		    style={styles.estiloInput}/>
-		    <Button title="Entrar"
-		    onPress={this.logar.bind(this)}> </Button>
-        <Button title="Registrar"
-		    onPress={this.abrirRegistrar.bind(this)}> </Button>
-      
+        <View style={styles.estiloBotao}>
+          <Button title="Entrar"
+          onPress={this.logar.bind(this)}> </Button>
+        </View>
+        <View style={styles.estiloBotao}>
+          <Button title="Registrar"
+          onPress={this.abrirRegistrar.bind(this)}> </Button>
+        </View>
 
       <View style={styles.estilocontainer}>
       <Modal
@@ -99,15 +95,15 @@ export default class Login extends Component {
           this.voltar();
         }}>
           <View style={styles.estiloModal}>    
-            <TextInput placeholder="E-mail"
+            <TextInput placeholder="E-mail" style={styles.estiloInput}
               onChangeText={(newUser) => this.setState({newUser})}/>
-            <TextInput placeholder="Senha"
+            <TextInput placeholder="Senha" style={styles.estiloInput}
               secureTextEntry={true}
               onChangeText={(newUserPass) => this.setState({newUserPass})}/>
             <TextInput placeholder="Redigite sua senha"
-              secureTextEntry={true}
+              secureTextEntry={true} style={styles.estiloInput}
               onChangeText={(retypedPass) => this.setState({retypedPass})}/>
-            <Button title="Registrar conta"
+            <Button title="Registrar conta" style={styles.estiloBotao}
               onPress={this.registrar.bind(this)}>
             </Button>
           </View> 
@@ -121,12 +117,15 @@ export default class Login extends Component {
 const styles = {
   estiloInput:{
     fontSize: 24,
-    backgroundColor:'#ddd'
+    backgroundColor:'#ddd',
+    margin:3
   },
   estilocontainer:{
     backgroundColor:"powderblue",
     alignItems: 'center'
   },estiloModal : {
     fill:1,
-  },
+  },estiloBotao:{
+    marginTop: 10
+  }
 } 
