@@ -22,14 +22,7 @@ export default class Lista extends Component {
   fecharModal(){
     this.setState({modalVisible: false}); //altera variavel modalVisible do state
   }
-  /*
-  adicionar(){   
-    const { refresh, dados } = this.state;
-    this.setState({
-      dados: [...dados, {key:"Valor 3"}],
-      refresh: !refresh
-    })  
-  }*/
+ 
 
   adicionarNovo(){
     const { refresh, dados } = this.state; // recupera variáveis do estate

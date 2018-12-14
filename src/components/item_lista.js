@@ -4,7 +4,7 @@ import { View, Text,TextInput,Button,Alert } from 'react-native';
 export default class ItemLista extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
+    this.state = { currentTime : new Date().toLocaleTimeString()
     };
   }
 
@@ -12,7 +12,7 @@ export default class ItemLista extends Component {
     return (
       <View style={{flexDirection: 'row'}}> 
         <View style = {styles.estiloItem}><Text style = {styles.estiloTexto}> {this.props.texto}</Text></View>
-        <View style = {styles.estiloItem}><Text style = {styles.estiloTexto}> {this.props.data}</Text></View>
+        <View style = {styles.estiloItem}><Text style = {styles.estiloTexto}> {this.state.currentTime}</Text></View>
   
       </View>
     );
